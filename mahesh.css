@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.partA{
+    height: 1000px;
+    width: 27%;
+    /* background-color: aqua; */
+    background-image: url();
+}
+.partB{
+    height: 1000px;
+    width: 73%;
+    /* background-color: aquamarine; */
+    border-left: 2px solid black;
+}
+.headOne{
+    margin-left: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.record{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.detailOne{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+table {
+    height: 200px;
+    margin: 20px;
+    width: 90%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+td{
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+th {
+    background-color: #f2f2f2;
+}
+.detailTwo{
+    margin-left: 20px;
+}
+.signOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+.detailThree{
+   margin-top: 10px;
+    margin-left: 20px;
+}
+.detailFour{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.contentOne p{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+.contentTwo p{
+    padding-top: 15px;
+}
+.contentTwo{
+    margin: 20px;
+}
+.boxTwo{
+   display: flex;
+   justify-content: space-between;
+   margin: 20px;
+}
+.contentThree{
+    margin: 20px;
+}
+.contentThree p{
+    padding-top: 5px;
+}
+
